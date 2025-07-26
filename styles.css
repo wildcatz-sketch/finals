@@ -1,0 +1,10 @@
+.title-hover {
+  transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.title-hover:hover {
+  transform: scale(1.1);
+  color: #FFD700; /* gold */
+  text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+}
